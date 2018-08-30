@@ -1,2 +1,2 @@
-jupyter nbconvert notebook.ipynb --to slides --output index --output-dir docs
+jupyter nbconvert notebook.ipynb --to slides --output index --output-dir docs --reveal-prefix=reveal.js --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=none
 mv docs/index.slides.html docs/index.html
